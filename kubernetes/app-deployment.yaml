@@ -12,11 +12,11 @@ spec:
   minReadySeconds: 20
   selector:
     matchLabels:
-      app: <APP>
+      app: app
   template:
     metadata:
       labels:
-        app: <APP>
+        app: app
     spec:
       containers:
       - envFrom:

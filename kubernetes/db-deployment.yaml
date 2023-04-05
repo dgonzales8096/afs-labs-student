@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: docker pull harbor.dev.afsmtddso.com/dgonzales-harbor-project/lab-env-repo:1.0
+        image: harbor.dev.afsmtddso.com/dgonzales-harbor-project/lab-env-repo:1.0
         ports:
         - containerPort: 5432
