@@ -4,4 +4,4 @@ metadata:
   name: feature-toggle
   namespace: dgonzales
 data:
-  LOCATION_FEATURE_ENABLED: "False"
+  LOCATION_FEATURE_ENABLED: "True"
